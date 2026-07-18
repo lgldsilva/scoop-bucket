@@ -1,0 +1,33 @@
+{
+  "version": "0.44.9",
+  "description": "Self-hosted semantic code search for git repos and documents",
+  "homepage": "https://github.com/lgldsilva/semidx",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/lgldsilva/semidx/releases/download/v0.44.9/semidx_0.44.9_windows_amd64.zip",
+      "hash": "8addc302700caf9784ff52c0f8651f3fd893c9de9c1d334a26b19ffda721f4ed"
+    },
+    "arm64": {
+      "url": "https://github.com/lgldsilva/semidx/releases/download/v0.44.9/semidx_0.44.9_windows_arm64.zip",
+      "hash": "b2b57b9e17cac2b6f8be79c96cdce37c36ed58f7510e17ebfcd5c0d42e6592ca"
+    }
+  },
+  "bin": "semidx.exe",
+  "checkver": {
+    "github": "https://github.com/lgldsilva/semidx"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/lgldsilva/semidx/releases/download/v$version/semidx_$version_windows_amd64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/lgldsilva/semidx/releases/download/v$version/semidx_$version_windows_arm64.zip"
+      }
+    },
+    "hash": {
+      "url": "https://github.com/lgldsilva/semidx/releases/download/v$version/checksums.txt"
+    }
+  }
+}
