@@ -1,19 +1,19 @@
 {
-    "version": "0.10.5",
+    "version": "0.11.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lgldsilva/updash/releases/download/v0.10.5/updash_0.10.5_windows_amd64.zip",
+            "url": "https://github.com/lgldsilva/updash/releases/download/v0.11.0/updash_0.11.0_windows_amd64.zip",
             "bin": [
                 "updash.exe"
             ],
-            "hash": "61558a3b24b682a3a6633b618a5c6b3343350b68d85319f8f79125f99e73437a"
+            "hash": "039fd7745cafbd3153275841243f86f0b6b0bee5f21b3f46cc8a0249ae7a1156"
         },
         "arm64": {
-            "url": "https://github.com/lgldsilva/updash/releases/download/v0.10.5/updash_0.10.5_windows_arm64.zip",
+            "url": "https://github.com/lgldsilva/updash/releases/download/v0.11.0/updash_0.11.0_windows_arm64.zip",
             "bin": [
                 "updash.exe"
             ],
-            "hash": "16d498f14b4bb2d58c363ae92a40bffd5a890f6bbcfca200c0fddd7fa2a146da"
+            "hash": "afbc8fcaea042197ba4fabb51122f5c47d61a33ec492493f9d03b7abc3c49c85"
         }
     },
     "homepage": "https://github.com/lgldsilva/updash",
